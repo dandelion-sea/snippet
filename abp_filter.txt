@@ -1,0 +1,88 @@
+[Adblock Plus 3.1]
+! Title: Custom filters
+! Version: 2023.10.16
+! Expires: 1 days
+! 如果需要禁用特定的规则，使用在自定义规则里添加#@#规则。详见https://help.adblockplus.org/hc/en-us/articles/360062733293
+
+1ppt.com##.miz-list
+baidu.com###con-ceiling-wrapper
+baidu.com###s_wrap
+baidu.com###s-hotsearch-wrapper
+baidu.com##.FYB_RD
+baijiahao.baidu.com##._2v051
+baijiahao.baidu.com##.app-module_rightSection_2v051
+baike.baidu.com##.tashuo-bottom
+bbs.mihoyo.com##.header__notifypoint
+bilibili.com###live_recommand_report
+bilibili.com###readRecommendInfo
+bilibili.com###reco_list
+bilibili.com###related
+bilibili.com##.recommend-list-container
+bilibili.com###reportFirst2
+bilibili.com###right-bottom-banner
+bilibili.com##.bilibili-player-dm-tip-wrap
+bilibili.com##.bilibili-player-ending-panel-box-videos
+bilibili.com##.bpx-player-ending-related
+bilibili.com##.login-limit-mask
+bilibili.com##.rcmd-list
+bilibili.com##.storey.report-wrap-module.report-scroll-module
+bilibili.com##.trending
+bilibili.com##.vcd
+bilibili.com##.video-ad-creative-card.report-wrap-module.report-scroll-module
+bilibili.com##div.bilibili-player-video-toast-bottom
+bilibili.com##div.login-tip
+bilibili.com##div.pop-live-small-mode.part-undefined
+bilibili.com##.pop-live-small-mode.part-1
+
+! 屏蔽动态鼠标浮窗
+bilibili.com##div.dynamic-panel-popover
+! 可选：屏蔽收藏夹和历史鼠标浮窗
+! bilibili.com##div.v-popper-content.header-favorite-popover
+! bilibili.com##div.history-panel-popover
+bilibili.com#$#hide-if-matches-xpath '//*[@id="i_cecream"]/div[1]/div[1]/ul[2]/li[1]/li/div[2]'
+! b站小红点
+! bilibili.com#$#hide-if-matches-xpath '//*[@id="biliMainHeader"]//li[contains(@class, "v-popover-wrap")]/div[contains(@class, "red-num--dynamic")]'
+bilibili.com##div.red-num--dynamic
+bilibili.com#$#hide-if-matches-xpath '//*[@id="internationalHeader"]//div[contains(@class, "nav-item")]//div[contains(@class, "num")]'
+! 屏蔽b站adblock提示
+bilibili.com##.adblock-tips
+
+blog.csdn.net##div.csdn-buyside-entry-box.type2.show
+gcores.com##.buorg-pad
+github.com#$#hide-if-matches-xpath '// div[contains(@class, "BorderGrid-cell")]/div/a[contains(text(), "Report repository")]/..'
+github.com#$#hide-if-matches-xpath '//*[@id="repo-content-pjax-container"]/div/div/div[last()]'
+haokan.baidu.com##.land-recommend
+haokan.baidu.com##.page-bottom-guesslike
+haokan.baidu.com##.page-bottom-hotsearch
+jianshu.com##._13lIbp
+jianshu.com##._26Hhi2
+jianshu.com##._27yofX
+jianshu.com#$#hide-if-matches-xpath '//*[@id="__next"]/div[1]/div/aside/div'
+jianshu.com#$#hide-if-matches-xpath '//*[@id="__next"]/div[1]/div/div[1]/section[3]'
+jianshu.com#$#hide-if-matches-xpath '//*[@id="__next"]/div[3]/div[3]'
+jianshu.com#$#hide-if-matches-xpath '//*[@id="sixapart-standard"]/head/script[5]'
+mp.weixin.qq.com##.rich_media_area_extra
+new.qq.com##.right-bar
+sohu.com###articleAllsee
+sohu.com###right-side-bar
+sohu.com##.groom-read
+t.bilibili.com##.topic-panel
+toutiao.com##a.look-more
+toutiao.com##div.detail-end-feed
+toutiao.com##div.hot-video
+toutiao.com##div.related-title
+toutiao.com##div.ttp-hot-board
+toutiao.com##ul.related-list
+youtube.com###comment-teaser
+youtube.com###related
+youtube.com##.html5-endscreen.ytp-player-content.videowall-endscreen.ytp-show-tiles
+zhihu.com###Popover1-content > div > div:nth-child(1)
+zhihu.com###Popover2-content > div > div:nth-child(1)
+zhihu.com##.Card.css-oyqdpg
+zhihu.com##.css-1ynzxqw
+zhihu.com##.css-ysn1om
+zhihu.com##div.Card.TopSearch.TopSearch--new
+! 知乎专栏相关推荐
+zhuanlan.zhihu.com##.Recommendations-Main
+! 类似知乎专栏的相关推荐，可能是知乎“想法”？https://www.zhihu.com/tardis/zm/art/621460269
+zhihu.com##.Card.RelatedReadings
