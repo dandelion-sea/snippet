@@ -18,6 +18,7 @@ bilibili.com###readRecommendInfo
 bilibili.com###reco_list
 bilibili.com###related
 bilibili.com##.recommend-list-container
+bilibili.com##.recommend-list-v1
 bilibili.com###reportFirst2
 bilibili.com###right-bottom-banner
 bilibili.com##.bilibili-player-dm-tip-wrap
