@@ -83,6 +83,8 @@ zhihu.com##.Card.css-oyqdpg
 zhihu.com##.css-1ynzxqw
 zhihu.com##.css-ysn1om
 zhihu.com##div.Card.TopSearch.TopSearch--new
+! 知乎首页热榜
+zhihu.com##.HotSearchCard
 ! 知乎专栏相关推荐
 zhuanlan.zhihu.com##.Recommendations-Main
 ! 类似知乎专栏的相关推荐，可能是知乎“想法”？https://www.zhihu.com/tardis/zm/art/621460269
